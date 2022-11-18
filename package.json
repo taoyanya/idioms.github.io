@@ -1,0 +1,24 @@
+{
+  "name": "line-circle-people",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.6.4",
+    "unocss": "^0.46.5",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "@iconify-json/carbon": "^1.1.9",
+    "canvas-confetti": "^1.6.0",
+    "pinyin-pro": "^3.11.0",
+    "solid-js": "^1.6.2",
+    "vite-plugin-solid": "^2.4.0"
+  }
+}

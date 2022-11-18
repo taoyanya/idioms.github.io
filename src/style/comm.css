@@ -1,0 +1,50 @@
+input::placeholder {
+  font-size: 16px;
+}
+
+* {
+  font-family: KaiTi, PMingLiU, "宋体";
+}
+
+.idioms {
+  max-width: 300px;
+  animation: show-idioms 0.5s forwards linear;
+}
+
+.idiom {
+  width: fit-content;
+  height: fit-content;
+  animation: show-idiom 1.2s forwards linear;
+}
+
+.prompt {
+  animation: show-prompt 0.5s forwards linear;
+}
+
+@keyframes show-idioms {
+  0% {
+    left: -500px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes show-idiom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes show-prompt {
+  0% {
+    top: -200px;
+  }
+  100% {
+    top: 0;
+  }
+}
